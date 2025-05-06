@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龍岡好棒棒</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="" href="index.js"> -->
+    <script src="index.js"> </script>
+</head>
+
+<body>
+    <!-- 龍岡好棒棒一頁式網站 -->
+    <div class="container">     
+        
+        <!-- 首頁__#index.html__LOGO、網站名稱（主視覺） -->
+        <div id="header">     
+            <div class="headerLogoDiv">
+                <img src="./插圖素材/HeaderLogoImg.png" alt="" class="headerLogoImg" title="「龍岡好棒棒」網頁LOGO">
+            </div>
+            <a href="#main01" id="headerButtonDiv" title="點擊前往「龍岡介紹」">
+                <h2>
+                    <!-- ↓ -->
+                    <span class="material-symbols-outlined">
+                        south
+                    </span>
+                </h2>
+            </a>
+            
+        </div>
+
+        <!-- 導覽列__header、main0$*5、footer -->
+        <div id="navGroup">
+                <a href="#header" class="navItemLink" title="點擊前往「主視覺」" >
+                    <img src="./去背資產/Logo_麵粉白10px.png" alt="" id="navLogoImg"
+                    onmouseover="over(this,'./去背資產/Logo_石綠10px.png')" onmouseout="out(this,'./去背資產/Logo_麵粉白10px.png')" style="cursor:hand">
+                </a>
+            ｜
+                <a href="#main01" class="navItemLink">龍岡介紹</a>
+            ｜
+                <a href="#main02" class="navItemLink">景點地圖</a>
+            ｜
+                <a href="#main03" class="navItemLink">民族服飾</a>
+            ｜
+                <a href="#main04" class="navItemLink">在地美食</a>
+            ｜
+                <a href="#main05" class="navItemLink">設計原由</a>
+            ｜
+                <a href="#main06" class="navItemLink">製作團隊</a>
+            ｜
+                <a href="#footer" class="navItemLink">聯絡我們</a>
+        </div>
+
+        <!-- 龍岡介紹__名稱由來、地理範圍、小歷史 -->
+        <div id="main01">     
+            <div class="main01AboveDiv">
+                <div class="main01AboveItem">
+                    <p>
+                        名稱由來
+                    </p>
+                </div>
+                <div class="main01AboveItem">
+                    <p>
+                        地理範圍
+                    </p>
+                </div>
+                <div class="main01AboveItem">
+                    <p>
+                        小歷史
+                    </p>
+                </div>
+            </div>
+
+            <div class="main01BelowDiv">
+                <div class="main01BelowItem">
+                    <p>
+                        據說是民國40年，李彌將軍部隊，自中南半島撤出後就駐紮此地。
+	龍岡地名的由來是李彌將軍見此地地形有如青龍臥高岡之勢，也呼應臺灣南部之軍事重鎮鳳山。
+
+                    </p>
+                </div>
+                <div class="main01BelowItem">
+                    <p>
+                        位於今中壢區環中東路及新中北路以南、崁頂路及八德區新生路以西，其東南以平鎮區及八德區之龍南路為界、西南側則以新街溪為界，面積約12.5平方公里，至2020年約有12萬人口。
+
+                    </p>
+                </div>
+                <div class="main01BelowItem">
+                    <p>
+                        戍守中樞的陸軍第一野戰軍團指揮部於1954年遷入後，陸軍第一士官學校於1957年成立，龍岡機場亦於1959年落成，龍岡成為北台灣重要的軍事區。
+                        隨著軍事單位落腳於此，大量眷村亦在此設立。                    
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 景點地圖__可點擊地標開啟“景點分頁＂其一 -->
+        <div id="main02">     
+            <div class="main02Map" >
+                <img src="./去背資產/地圖07_3.jpg" alt="" class="main02BackgroundImage">
+
+                    <a href="./map01.html" class="main02MapLink" title="點擊查看「馬祖新村眷村文創園區」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem01"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map02.html" class="main02MapLink" title="點擊查看「桃園市立圖書館龍岡分館」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem02"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map03.html" class="main02MapLink" title="點擊查看「大火房泉水浣衣池」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem03"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map04.html" class="main02MapLink" title="點擊查看「宵裡福山宮」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem04"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map05.html" class="main02MapLink" title="點擊查看「霄裡玉元宮 (天公廟)」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem05"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map06.html" class="main02MapLink" title="點擊查看「石母娘娘浣衣池」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem06"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map07.html" class="main02MapLink" title="點擊查看「財團法人桃園市龍岡清真寺」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem07"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map08.html" class="main02MapLink" title="點擊查看「忠貞市場」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem08"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map09.html" class="main02MapLink" title="點擊查看「黑山銀花 BLACK MOUNTAIN SILVER FLOWER」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem09"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map10.html" class="main02MapLink" title="點擊查看「異域故事館(預約制)」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem10"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+                    <a href="./map11.html" class="main02MapLink" title="點擊查看「忠貞新村文化園區」景點資訊" target="_blank">
+                        <img src="./去背資產/地標.png" alt="" class="main02MapItem" id="main02MapItem11"
+                        onmouseover="over(this,'./去背資產/地標_石綠.png')" onmouseout="out(this,'./去背資產/地標.png')" style="cursor:hand">
+                    </a>
+
+            </div>
+        </div>
+
+        <!-- 民族服飾__民族名稱、服飾圖、特色敘述 -->
+        
+        <div id="main03">
+            <div class="main03Div">
+
+                <div class="main03Row">
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/r7_BAOdU76k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/GFyPwSV6EJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                </div>
+
+                <div class="main03Row">
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/4Po4DJyHH8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/l3Dk4Bnmr2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                </div>
+
+                <div class="main03Row">
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/rnK_NgNF9_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/lNQ3uePGwD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                </div>
+
+                <div class="main03Row">
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/pjg9ku3Cgwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/RIiL8kbXdHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                </div>
+                
+                <div class="main03Row">
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/xf_9e1u-beI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                    <div class="main03Video">
+                        <iframe src="https://www.youtube.com/embed/91TGJ7UZ8NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="main03VideoIframe"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 在地美食__美食介紹 -->
+        <div id="main04">     
+            <div class="main04FoodDiv">
+                <div class="main04FoodAboveDiv">
+
+                    <div class="main04FoodItemShow">
+                        <img src="./自己拍ㄉ素材/1.米干.JPG" alt="" class="main04FoodItemImg" id="mainFoodShowImg">
+                    </div>
+
+                    <div class="main04FoodItemText" id="01">
+                        <p class="main04FoodItemInformationTitle">米干</p>
+                        <div class="main04FoodItemInformationHrDiv"> <hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;在來白米浸泡後磨成濃稠的米漿，然後在大鐵盤上攤成薄薄的一層，再放入沸水中蒸煮，一分鐘後米漿變成了Q軟的薄片，在竹竿上晾涼後切成條狀，有湯的（豬肝、肉片、蛋、酸菜）跟乾的（紹子肉醬），不要誤認為粄條了喔！搭配獨特的酸辣椒那個味道可是一絕呢！
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="02">
+                        <p class="main04FoodItemInformationTitle">破酥包</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;一層一層堆疊口感的破酥包。破酥包聽起來像是破掉的書包，其實是來自雲南、緬甸的手工包子，洋蔥、豬肉、筍丁用胡椒拌炒，包在層層相疊的麵皮裡。</br>
+                            &emsp;&emsp;「破酥」的意思就是桿麵時把麵皮延伸到最大、最薄，然後捲出一層一層的口感。</br>
+                            &emsp;&emsp;破酥包有鹹甜兩種口味，除了內餡是肉的，也可以見到包紅豆內餡的，讓你想一吃再吃，毫不會膩。
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="03">
+                        <p class="main04FoodItemInformationTitle">雲南大薄片</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;大薄片就是把豬頭皮切的大片切的薄薄的。 生高麗菜先用冰水洗過再擺盤，再把大薄片放在上面，放好後灑上一些香菜末。 這時準備醬汁，把白芝麻、花生碎、蒜末、兩大匙香醋、一大匙水、糖、辣椒末(配色用)、兩大匙辣油、鹽，一起攪拌均勻即可，再把醬汁淋上大薄片上，這樣就完成雲南大薄片。
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="04">
+                        <p class="main04FoodItemInformationTitle">豌豆粉</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;干豌豆粒，磨瓣去皮，用水泡發後，摻水磨成漿，經過濾、熬者成糊，冷卻後凝回而成，醬汁與大薄片相同，清新爽口，Q彈解膩。
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="05">
+                        <p class="main04FoodItemInformationTitle">過橋米線</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;其中有一說法：由於要把新鮮米線從一個碗挑到另一個裝滿湯料的碗內，其過程類似一橋飛渡兩碗間，因此謂之為「過橋米線」
+                            先煮一鍋濃郁的雞湯，一般按照先生後熟的順序將葷菜，蛋，蔬菜放入湯內，放入葷菜後用筷子攪動湯料，生的葷菜立刻會被燙熟。最後，用筷子挑入米線，完成「過橋」的動作。
+                            
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="06">
+                        <p class="main04FoodItemInformationTitle">冬蔭功</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;是著名的泰國酸辣湯，由南薑、酸子、香茅、青蔥、酸檸檬、辣椒和魚露烹飪而成。最常見的烹調法是加蝦和草菇、以魚露調味並形成乳狀質感的冬蔭功。
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="07">
+                        <p class="main04FoodItemInformationTitle">忠貞甩餅</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;甩餅作法類似蔥抓餅，
+                            餅皮起鍋後會拍甩擠壓一下，增添甩餅的蓬鬆層次感。
+                            所以餅皮吃起來香酥，層次感比較豐富
+                            口味8種讓人選擇，其中打拋雞口味讓你吃出異國風情！
+                            
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="08">
+                        <p class="main04FoodItemInformationTitle">紫米粑粑</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;紫米外皮炸的十分酥脆，咬下去還有酥脆的聲音，內裡Q彈，吃起來有紫米的香氣，表面有撒些糖粉，所以又帶點甜甜的味道。
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="09">
+                        <p class="main04FoodItemInformationTitle">炸酥肉</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;制作酥肉其實並不難，只需一塊五花肉，加上一些調味料醃製一下，裹上澱粉糊炸製而成，入口香酥、嫩滑、爽口、肥而不腻。
+                            
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="10">
+                        <p class="main04FoodItemInformationTitle">茶葉醬抓飯</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;茶葉醬抓飯：醃茶葉拌入米飯，再撒上各種酥豆，搭配雲南酥肉、炸豌豆粉、泰式涼拌青木瓜等多種配料，讓人一口咬下去能品嚐到多種不同的口感和風味，絕對是美食愛好者不能錯過的體驗。</br>
+                            &emsp;&emsp;茶葉醬手抓飯的吃法非常特別，不同於一般用筷子夾菜，龍岡的茶葉醬手抓飯要先用手抓取約一口量的米飯，再取一道菜餚，將兩者捏在一起送入嘴中，才算是正統的吃法。這種吃法不僅增加了食材之間的融合度，更能體現出龍岡人獨有的熱情好客和生活情趣。
+                            
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="11">
+                        <p class="main04FoodItemInformationTitle">綠咖哩</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;又稱青咖哩，是一種泰國羹。綠咖哩的主要成分包括椰奶、各種香料、綠辣椒、大蒜、高良薑、香茅、香菜根、紅蔥頭、棕櫚糖、泰國茄子、魚露、青檸、箭葉橙葉和泰國羅勒等食材。
+                            吃起來濃郁香辣，適合下飯和麵條食用，一碗接著一碗。
+                            
+                            
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="12">
+                        <p class="main04FoodItemInformationTitle">紅咖哩</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;紅咖哩是一種受歡迎的泰國菜，由椰奶中的紅咖哩醬和加入的肉組成，如雞肉、牛肉、豬肉、鴨肉或蝦，或豆腐等素食蛋白質來源。
+                            跟綠咖哩比起來是較溫和的辣咖哩
+                            主要成分包括紅辣椒、大蒜、小蔥、高良薑、蝦醬、鹽、酸橙葉、香菜根、香菜種子、孜然種子、花椒和香茅。
+                            
+                            
+                        </p>
+                    </div>
+
+                    <div class="main04FoodItemText" id="13">
+                        <p class="main04FoodItemInformationTitle">泰式檸檬魚</p>
+                        <div class="main04FoodItemInformationHrDiv"><hr></div>
+                        <p class="main04FoodItemInformationContent">
+                            &emsp;&emsp;蒸魚前在魚腹底下放上拍過的香茅，
+                            製作醬汁：
+                            蒜頭切末不用太碎、辣椒切細圈、香菜莖切碎，跟魚露、檸檬汁、糖、少許胡椒一起調成醬汁
+                            淋在蒸好的魚上，酸酸辣辣的口味配上新鮮的魚，香辣解膩，胃口大開。
+                            
+                            
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="main04FoodBelowDiv">
+                    <!-- <div class="main04FoodItem">
+                        <input type="button" value="" id="button01" class="main04FoodItemImg main04BelowImg" style="background-image:url('./按鈕背景食物圖/1.米干.JPG');" onclick="showButtonEvent()">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button02" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/2.破酥包.JPG);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button03" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/3.雲南大薄片.JPG);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button04" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/4.碗豆粉.JPG);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button05" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/5.過橋米線.jpg);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button06" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/6.冬陰功.jpg);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button07" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/7.忠貞甩餅.JPG);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button08" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/8.紫米粑粑.jpg);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button09" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/9.炸酥肉.jpg);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button10" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/10.茶葉醬抓飯.jpg);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button11" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/11.綠咖哩.JPG);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button12" class="main04FoodItemImg main04BelowImg" style="background-image:url(./按鈕背景食物圖/12.紅咖哩.JPG);">
+                    </div>
+                    
+                    <div class="main04FoodItem">
+                        <input type="button" value="" id="button13" class="main04FoodItemImg main04BelowImg" style="background-image: url(./按鈕背景食物圖/13.泰式檸檬魚.JPG);">
+                    </div> -->
+
+
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/1.米干.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="米干">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/2.破酥包.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="破酥包">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/3.雲南大薄片.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="雲南大薄片">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/4.碗豆粉.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="豌豆粉">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/5.過橋米線.jpg" alt="" class="main04FoodItemImg main04BelowImg" title="過橋米線">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/6.冬陰功.jpg" alt="" class="main04FoodItemImg main04BelowImg" title="冬陰功">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/7.忠貞甩餅.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="忠貞甩餅">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/8.紫米粑粑.jpg" alt="" class="main04FoodItemImg main04BelowImg" title="紫米粑粑">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/9.炸酥肉.jpg" alt="" class="main04FoodItemImg main04BelowImg" title="炸酥肉">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/10.茶葉醬抓飯.jpg" alt="" class="main04FoodItemImg main04BelowImg" title="茶葉醬抓飯">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/11.綠咖哩.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="綠咖哩">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/12.紅咖哩.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="紅咖哩">
+                    </div>
+                    <div class="main04FoodItem">
+                        <img src="./自己拍ㄉ素材/13.泰式檸檬魚.JPG" alt="" class="main04FoodItemImg main04BelowImg" title="泰式檸檬魚">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 設計原由__設計原由 -->
+        <div id="main05">
+
+            <div class="main05ImgDiv">
+                <img src="./插圖素材/國旗.png" alt="" class="main05Png" title="凱全同學畫的插圖！">
+            </div>
+            <div class="main05ImgDiv2">
+                <img src="./插圖素材/國旗.png" alt="" class="main05Png" title="凱全同學畫的插圖！">
+            </div>
+
+            <div class="main05Why">
+                這是由四位在地桃園人，一同分工、討論，製作而成的網站。<br>
+                地緣關係，讓我們在國中、高中、甚至上大學，都不免會接觸到與龍岡相關的作業。<br>
+                經過多年的接觸，讓我們愈來愈認識龍岡這個地方，並產生一些特殊的情感。<br>
+                蒐集資訊的同時，我們注意到龍岡資料的零散，因此產生想整理、匯集的想法。<br>
+                我們決定整理 人文、歷史與觀光 等資訊，這便是「龍岡好棒棒」的由來。
+
+            </div>
+        </div>
+
+        <!-- 製作團隊__製作團隊 -->
+        <div id="main06">     
+            <div class="main06Who">
+                <div class="main06WhoText">
+                    <img src="./製作團隊個人照片/IMG_2365_2.png" alt="" class="main06WhoImage">
+                    <span style="color: rgba(253, 251, 239, 0.05);"></span>
+                    <div class="main06WhoName"><p class="main06Name">陳郁璿</p></div>
+                    <div class="main06WhoHr"><hr></div>
+                    <div class="main06WhoContent"><p class="main06AboutWho">Nothing</p></div>
+                </div>
+                <div class="main06WhoText">
+                    <img src="./製作團隊個人照片/IMG_42882.JPG" alt="" class="main06WhoImage">
+                    <span style="color: rgba(253, 251, 239, 0.05);"></span>
+                    <div class="main06WhoName"><p class="main06Name">楊凱全</p></div>
+                    <div class="main06WhoHr"><hr></div>
+                    <div class="main06WhoContent"><p class="main06AboutWho">Nothing</p></div>
+                </div>
+                <div class="main06WhoText">
+                    <img src="./製作團隊個人照片/IMG_18822.JPG" alt="" class="main06WhoImage">
+                    <span style="color: rgba(253, 251, 239, 0.05);"></span>
+                    <div class="main06WhoName"><p class="main06Name">張昶勛</p></div>
+                    <div class="main06WhoHr"><hr></div>
+                    <div class="main06WhoContent"><p class="main06AboutWho">Nothing</p></div>
+                </div>
+                <div class="main06WhoText">
+                    <img src="./製作團隊個人照片/IMG_43802.JPG" alt="" class="main06WhoImage">
+                    <span style="color: rgba(253, 251, 239, 0.05);"></span>
+                    <div class="main06WhoName"><p class="main06Name">廖羽歆</p></div>
+                    <div class="main06WhoHr"><hr></div>
+                    <div class="main06WhoContent"><p class="main06AboutWho">Nothing</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer__聯絡我們 -->
+        <div id="footer">     
+            <div class="footerDiv">
+
+                <div class="footerDivLeft">
+
+                    <div class="footerDivLeftAbove">
+                        <a href="#header"><img src="./插圖素材/圖片1.png" alt="" class="footerDivLogo"></a>
+                    </div>
+
+                    <div class="footerDivLeftBelow">
+                        <!-- <li class="footerDivIformation">學&emsp;&emsp;校：元智大學</li> -->
+                        <li class="footerDivInformation">
+                            校&emsp;&emsp;系：
+                            <a href="https://www.yzu.edu.tw/" class="footerDivInformationLink" target="_blank">元智大學</a>
+                            <a href="http://www.infocom.yzu.edu.tw/index.php/zh-tw/" class="footerDivInformationLink" target="_blank">資訊傳播學系</a>
+                            設計組
+                        </li>
+                        <li class="footerDivInformation">
+                            組&emsp;&emsp;別：第10組</li>
+                        <li class="footerDivInformation">
+                            更新日期：2023-06-13</li>
+                    </div>
+
+                </div>
+
+                <div class="footerDivRight">
+                    <div class="footerDivRightLefft">
+                        <li class="footerDivContent">學號</li>
+                        <li class="footerDivContent">1111834</li>
+                        <li class="footerDivContent">1111837</li>
+                        <li class="footerDivContent">1111839</li>
+                        <li class="footerDivContent">1111841</li>
+                    </div>
+                    <div class="footerDivRightmiddle">
+                        <li class="footerDivContent">姓名</li>
+                        <li class="footerDivContent">陳郁璿</li>
+                        <li class="footerDivContent">楊凱全</li>
+                        <li class="footerDivContent">張昶勛</li>
+                        <li class="footerDivContent">廖羽歆</li>
+                    </div>
+                    <div class="footerDivRightRight">
+                        <li class="footerDivContent">聯絡資訊</li>
+                        <li class="footerDivContent"><a href="mailto:s1111834@mail.yzu.edu.tw" class="footerDivmail">s1111834@mail.yzu.edu.tw</a></li>
+                        <li class="footerDivContent"><a href="mailto:s1111837@mail.yzu.edu.tw" class="footerDivmail">s1111837@mail.yzu.edu.tw</a></li>
+                        <li class="footerDivContent"><a href="mailto:s1111839@mail.yzu.edu.tw" class="footerDivmail">s1111839@mail.yzu.edu.tw</a></li>
+                        <li class="footerDivContent"><a href="mailto:s1111841@mail.yzu.edu.tw" class="footerDivmail">s1111841@mail.yzu.edu.tw</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<script>
+    function over(imgObj,picname) { imgObj.src=picname; }
+    function out(imgObj,picname) { imgObj.src=picname; }
+    
+            document.getElementById('01').style.display = ''; // show
+            document.getElementById('02').style.display = 'none'; // hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+
+    let images;
+    window.onload = function(){
+        images = document.getElementsByClassName('main04FoodItemImg');
+        images[0].addEventListener('click',function(){
+            images[0].src = this.src;
+
+        });
+        images[1].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = ''; // show
+            document.getElementById('02').style.display = 'none'; // hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[2].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = ''; // show
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[3].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = ''; // show
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[4].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none';// hide
+            document.getElementById('04').style.display = ''; // show
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[5].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none';// hide
+            document.getElementById('05').style.display = ''; // show
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[6].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = ''; // show
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[7].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = ''; // show
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[8].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = ''; // show
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[9].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = ''; // show
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[10].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = ''; // show
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[11].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = ''; // show
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[12].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = ''; // show
+            document.getElementById('13').style.display = 'none'; // hide
+        });
+        images[13].addEventListener('click',function(){
+            images[0].src = this.src;
+            document.getElementById('01').style.display = 'none';// hide
+            document.getElementById('02').style.display = 'none';// hide
+            document.getElementById('03').style.display = 'none'; // hide
+            document.getElementById('04').style.display = 'none'; // hide
+            document.getElementById('05').style.display = 'none'; // hide
+            document.getElementById('06').style.display = 'none'; // hide
+            document.getElementById('07').style.display = 'none'; // hide
+            document.getElementById('08').style.display = 'none'; // hide
+            document.getElementById('09').style.display = 'none'; // hide
+            document.getElementById('10').style.display = 'none'; // hide
+            document.getElementById('11').style.display = 'none'; // hide
+            document.getElementById('12').style.display = 'none'; // hide
+            document.getElementById('13').style.display = ''; // show
+        });
+        }    
+        
+</script>
+
+</body>
+</html>

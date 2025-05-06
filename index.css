@@ -1,0 +1,816 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+hr{
+    border-color: rgba(253, 251, 239, 0.8);
+}
+.material-symbols-outlined{
+    padding-top: 25%;
+}
+
+ /*龍岡好棒棒__一頁式網站*/
+.container{     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: relative; 
+
+    background-color:rgb(51, 49, 46);
+    width: 99vw;
+    height: auto;
+}
+
+
+ /*首頁__LOGO、網站名稱（主視覺）*/
+#header{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 101vh;
+}
+.headerLogoDiv{
+    width: 38%;
+    height: 58%;
+}
+.headerLogoImg{
+    width: 100%;
+    height: 100%;
+}
+#headerButtonDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(253, 251, 239);
+    background-color: rgba(253, 251, 239, 0.2);
+    width: 50px;
+    height: 50px;
+
+    margin-top: 5%;
+}
+#headerButtonDiv:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(253, 251, 239);
+    background-color: rgba(136, 198, 175, 0.3);
+    width: 50px;
+    height: 50px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin-top: 5%;
+}
+#headerButtonDiv:active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(253, 251, 239);
+    background-color: rgba(229, 202, 63, 0.3);
+    width: 50px;
+    height: 50px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin-top: 5%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+ /*導覽列*/
+#navGroup{     
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+    background-color: rgb(51, 49, 46);
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    color: rgba(253, 251, 239, 0.5);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    z-index: 2;
+}
+.navItemLink{
+    flex-basis: 100%;
+    font-size: 30px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(253, 251, 239, 0.5);
+}
+#navLogoImg{
+    margin-top: 5%;
+    width: 20%;
+    height: 20%;
+}
+.navItemLink:hover{
+    color: rgb(136, 198, 175);
+}
+.navItemLink:active{
+    color: rgb(229, 202, 63);
+}
+
+
+ /*龍岡介紹__名稱由來、地理範圍、小歷史*/
+#main01{    
+    width: 100%;
+    height: 101vh;    
+
+    border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main01AboveDiv{
+    margin-top: 3%;
+
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: unset;
+}
+.main01BelowDiv{
+
+    width: 100%;
+    height: 60%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: unset;
+}
+.main01AboveItem{
+    padding: 2.5%;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    border-radius: 10px;
+
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: rgba(253, 251, 239, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main01BelowItem{
+    padding: 2.5%;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    border-radius: 10px;
+
+    font-size: 2rem;
+    line-height: 4rem;
+    color: rgba(253, 251, 239, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main01AboveItem:hover{
+    padding: 2.5%;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: rgb(253, 251, 239);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main01BelowItem:hover{
+    padding: 2.5%;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    font-size: 2rem;
+    line-height: 4rem;
+    color: rgb(253, 251, 239);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ /*景點地圖__可點擊地標開啟“景點分頁＂其一*/
+#main02{     
+    width: 100%;
+    height: 101vh;
+
+    border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main02Map{
+    /* border: 1px solid rgba(253, 251, 239, 0.5); */
+    border-radius: 10px;
+    width: 95%;
+    height: 87%;
+    margin-top: 3.15%;
+    position: relative;     /*設為相對定位(relative)*/
+    background-color: rgba(253, 251, 239, 0.05);
+}
+.main02BackgroundImage{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.main02MapLink{
+    width: 0;
+    height: 0;
+    
+}
+.main02MapItem{
+    width: 2%;
+    height: 6%;
+}
+#main02MapItem01{
+    position: absolute;
+    top: 40%;
+    right: 90%;
+}
+#main02MapItem02{
+    position: absolute;
+    top: 36%;
+    left: 49%;
+}
+#main02MapItem03{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+}
+#main02MapItem04{
+    position: absolute;
+    top: 48%;
+    left: 65%;
+}
+#main02MapItem05{
+    position: absolute;
+    top: 56%;
+    left: 67%;
+}
+#main02MapItem06{
+    position: absolute;
+    top: 73%;
+    left: 60%;
+}
+#main02MapItem07{
+    position: absolute;
+    top: 72%;
+    left: 43.5%;
+}
+#main02MapItem08{
+    position: absolute;
+    top: 78%;
+    left: 42%;
+}
+#main02MapItem09{
+    position: absolute;
+    top: 81.5%;
+    left: 45%;
+}
+#main02MapItem10{
+    position: absolute;
+    top: 83%;
+    left: 44.5%;
+}
+#main02MapItem11{
+    position: absolute;
+    top: 82.5%;
+    left: 46.5%;
+}
+
+
+ /*民族服飾__民族名稱、服飾圖、特色敘述*/
+#main03{     
+    padding: 2.5%;
+    border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
+
+    width: 100%;
+    height: 280vh;
+    /* border: 1px solid tomato; */
+}
+.main03Div{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.main03Row{
+    width: 100%;
+    height: 19%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.main03Video{
+    width: 49%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+}
+.main03VideoIframe{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.main03VideoIframe:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main03Text{
+    width: 45%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    font-size: 3rem;
+    color: rgba(253, 251, 239, 0.5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ /*在地美食__美食介紹*/
+#main04{     
+    width: 100%;
+    height: 101vh;
+    border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main04FoodDiv{
+    border-radius: 10px;
+    width: 95%;
+    height: 87%;
+    margin-top: 3.15%;
+    position: relative;     /*設為相對定位(relative)*/
+    /* background-color: rgba(253, 251, 239, 0.05); */
+    padding: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main04FoodAboveDiv{
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main04FoodBelowDiv{
+    width: 100%;
+    height: 13%;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main04FoodItemShow{
+    width: 68.7%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    border-radius: 10px;
+    opacity: 1;
+}
+.main04FoodItemText{
+    padding: 3%;
+    width: 29.5%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    color: rgba(253, 251, 239, 0.9);
+    border-radius: 10px;
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+.main04FoodItemText:hover{
+    padding: 3%;
+    width: 29.5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(253, 251, 239);
+    border-radius: 10px;
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main04FoodItemInformationTitle{
+    width: 100%;
+    height: 10%;
+    font-size: 3rem;
+    margin-bottom: 8%;
+    text-align: center;
+}
+.main04FoodItemInformationHrDiv{
+    margin-bottom: 11%;
+    padding: 1%;
+    width: 100%;
+    height: 2%;
+}
+.main04FoodItemInformationContent{
+    width: 100%;
+    height: 85%;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+#mainShowImg{
+    clear: both;
+}
+.main04FoodItem{
+    position: relative;
+    width: 6%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+    border-radius: 100%;
+}
+.main04FoodItem:hover{
+    width: 6%;
+    height: 100%;
+    background-color: rgba(253, 251, 239, 0.05);
+}
+.main04FoodItemImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.main04BelowImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.main04BelowImg:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.main04BelowImg:active{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    opacity: 1;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+ /*設計原由__設計原由*/
+#main05{     
+    width: 100%;
+    height: 101vh;
+    border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5%;
+
+    position: relative;
+    overflow: hidden;
+}
+.main05Why{
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 4%;
+    background-color: rgba(253, 251, 239, 0);
+    border: dashed rgba(253, 251, 239, 0.5);
+    border-width: medium;
+    border-radius: 10px;
+
+    font-size: 2rem;
+    line-height: 5rem;
+    color: rgba(253, 251, 239, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main05ImgDiv{
+    width: 37%;
+    height: 50%;
+    position: absolute;
+    left: -6%;
+    top: 4%;
+    opacity: 1;
+}
+.main05ImgDiv2{
+    width: -37%;
+    height: 50%;
+    position: absolute;
+    right: -6%;
+    top: 4%;
+    opacity: 1;
+    transform: scaleX(-1);
+}
+/* .main05ImgDiv:hover{
+    width: 37%;
+    height: 50%;
+    position: absolute;
+    left: -6%;
+    top: 4%;
+    opacity: 1;
+}
+.main05ImgDiv2:hover{
+    width: -37%;
+    height: 50%;
+    position: absolute;
+    right: -6%;
+    top: 4%;
+    opacity: 1;
+    transform: scaleX(-1);
+} */
+.main05Png{
+    width: 100%;
+    height: 100%;
+}
+
+
+ /*製作團隊__製作團隊*/
+#main06{     
+    width: 100%;
+    height: 101vh;
+    border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5%;
+}
+.main06Who{
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 4%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main06WhoText{
+    width: 23%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main06WhoName{
+    padding: 3%;
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main06Name{
+    color: rgba(253, 251, 239, 0.9);
+    font-size: 3rem;
+}
+.main06WhoHr{
+    width: 70%;
+    height: 1%;
+}
+.main06WhoContent{
+    padding: 3%;
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main06AboutWho{
+    color: rgba(253, 251, 239, 0.9);
+    font-size: 2rem;
+}
+.main06WhoImage{
+    position: absolute;
+    width: 21.4%;
+    height: 8.65%;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 10px;
+    z-index: 1;
+}
+.main06WhoImage:hover{
+    position: absolute;
+    width: 21.4%;
+    height: 8.65%;
+    object-fit: cover;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+
+/* Footer__聯絡我們 */
+#footer{     
+    width: 100%;
+    height: 51vh;
+    padding: 3%;
+    background-color: rgba(136, 198, 175, 0.5);
+}
+.footerDiv{
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, 0);
+    border: dashed rgba(253, 251, 239, 0.8);
+    border-width: medium;
+    border-radius: 10px;
+    color: rgba(253, 251, 239, 0.9);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    padding: 1%;
+}
+.footerDivLeft{
+    width: 44%;
+    height: 100%;
+    /* border: 1px solid tomato; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.footerDivRight{
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid tomato; */
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 1%;
+
+}
+.footerDivLeftAbove{
+    padding-left: 3%;
+    padding-right: 3%;
+    /* padding-top: 1%; */
+    width: 100%;
+    height: 35%;
+}
+.footerDivLogo{
+    width: 100%;
+    height: 100%;
+}
+.footerDivLeftBelow{
+    width: 100%;
+    height: 74%;    
+    display: flex;
+
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    font-size: 2rem;
+}
+.footerDivInformation{
+    width: 100%;
+    list-style-type: none;
+    padding-left: 5%;
+}
+.footerDivInformationLink{
+    text-decoration: none;
+    color: rgba(253, 251, 239, 1);
+}
+.footerDivInformationLink:hover{
+    text-decoration: none;
+    color: rgba(229, 202, 63, 1);
+    text-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footerDivInformationLink:active{
+    text-decoration: none;
+    color: rgba(195, 40, 45, 0.7);
+}
+.footerDivRightLefft{
+    width: 23%;
+    height: 100%;
+}
+.footerDivRightmiddle{
+    width: 23%;
+    height: 100%;
+}
+.footerDivRightRight{
+    width: 62%;
+    height: 100%;
+}
+.footerDivContent{
+    width: 100%;
+    height: 20%;
+    color: rgba(253, 251, 239, 1);
+    font-size: 2.25rem;
+    text-align: center;
+    list-style-type: none;
+}
+.footerDivmail{
+    text-decoration: none;
+    color: rgba(253, 251, 239, 1);
+}
+.footerDivmail:hover{
+    text-decoration: none;
+    color: rgba(229, 202, 63, 1);
+    text-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footerDivmail:active{
+    text-decoration: none;
+    color: rgba(195, 40, 45, 0.7);
+}
