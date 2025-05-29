@@ -18,7 +18,7 @@
     <div class="container">     
         
         <!-- 首頁__#index.html__LOGO、網站名稱（主視覺） -->
-        <div id="header">     
+        <div id="header" class="page">     
             <div class="headerLogoDiv">
                 <img src="./插圖素材/HeaderLogoImg.png" alt="" class="headerLogoImg" title="「龍岡好棒棒」網頁LOGO">
             </div>
@@ -56,7 +56,7 @@
         </div>
 
         <!-- 龍岡介紹__名稱由來、地理範圍、小歷史 -->
-        <div id="main01">     
+        <div id="main01" class="page">     
             <div class="main01AboveDiv">
                 <div class="main01AboveItem">
                     <p>
@@ -100,7 +100,7 @@
         </div>
 
         <!-- 景點地圖__可點擊地標開啟“景點分頁＂其一 -->
-        <div id="main02">     
+        <div id="main02" class="page">     
             <div class="main02Map" >
                 <img src="./去背資產/地圖07_3.jpg" alt="" class="main02BackgroundImage">
 
@@ -164,7 +164,7 @@
 
         <!-- 民族服飾__民族名稱、服飾圖、特色敘述 -->
         
-        <div id="main03">
+        <div id="main03" class="page">
             <div class="main03Div">
 
                 <div class="main03Row">
@@ -216,7 +216,7 @@
         </div>
 
         <!-- 在地美食__美食介紹 -->
-        <div id="main04">     
+        <div id="main04" class="page">     
             <div class="main04FoodDiv">
                 <div class="main04FoodAboveDiv">
 
@@ -451,7 +451,7 @@
         </div>
 
         <!-- 設計原由__設計原由 -->
-        <div id="main05">
+        <div id="main05" class="page">
 
             <div class="main05ImgDiv">
                 <img src="./插圖素材/國旗.png" alt="" class="main05Png" title="凱全同學畫的插圖！">
@@ -471,7 +471,7 @@
         </div>
 
         <!-- 製作團隊__製作團隊 -->
-        <div id="main06">     
+        <div id="main06" class="page">     
             <div class="main06Who">
                 <div class="main06WhoText">
                     <img src="./製作團隊個人照片/IMG_2365_2.png" alt="" class="main06WhoImage">
@@ -505,7 +505,7 @@
         </div>
 
         <!-- Footer__聯絡我們 -->
-        <div id="footer">     
+        <div id="footer" class="page">     
             <div class="footerDiv">
 
                 <div class="footerDivLeft">
@@ -559,6 +559,37 @@
 </div>
 
 <script>
+
+// 100vh為單位捲動頁面
+let isScrolling = false;
+
+document.addEventListener("wheel", (event) => {
+    event.preventDefault();
+
+    if (isScrolling) return;  // 動畫執行中不觸發
+
+    const sections = document.querySelectorAll(".page");
+    const direction = event.deltaY > 0 ? 1 : -1;
+    const current = Math.round(window.scrollY / window.innerHeight);
+    let target = current + direction;
+
+    // 限制範圍不超出頁數
+    target = Math.max(0, Math.min(sections.length - 1, target));
+
+    isScrolling = true;
+    window.scrollTo({
+        top: target * window.innerHeight,
+        behavior: "smooth"
+    });
+
+    // 等滾動結束再解鎖
+    setTimeout(() => {
+        isScrolling = false;
+    }, 700);  // 700ms 可依需求調整滾動時間
+}, { passive: false });
+
+
+	
     function over(imgObj,picname) { imgObj.src=picname; }
     function out(imgObj,picname) { imgObj.src=picname; }
     
