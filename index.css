@@ -37,7 +37,7 @@ hr{
 
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    height: 101vh;
+    height: 100vh;
 }
 .headerLogoDiv{
     width: 38%;
@@ -137,7 +137,7 @@ hr{
  /*龍岡介紹__名稱由來、地理範圍、小歷史*/
 #main01{    
     width: 100%;
-    height: 101vh;    
+    height: 100vh;    
 
     border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
 
@@ -229,7 +229,7 @@ hr{
  /*景點地圖__可點擊地標開啟“景點分頁＂其一*/
 #main02{     
     width: 100%;
-    height: 101vh;
+    height: 100vh;
 
     border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
 
@@ -387,7 +387,7 @@ hr{
  /*在地美食__美食介紹*/
 #main04{     
     width: 100%;
-    height: 101vh;
+    height: 100vh;
     border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
 
     display: flex;
@@ -532,7 +532,7 @@ hr{
  /*設計原由__設計原由*/
 #main05{     
     width: 100%;
-    height: 101vh;
+    height: 100vh;
     border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
 
     display: flex;
@@ -607,7 +607,7 @@ hr{
  /*製作團隊__製作團隊*/
 #main06{     
     width: 100%;
-    height: 101vh;
+    height: 100vh;
     border-bottom: 3px dotted rgba(253, 251, 239, 0.1);
     
     display: flex;
