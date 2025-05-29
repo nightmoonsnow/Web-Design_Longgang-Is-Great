@@ -219,7 +219,7 @@ hr{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 
-    font-size: 2rem;
+    font-size: font-size: clamp(1rem, 3vh, 2rem);;
     line-height: 4rem;
     color: rgb(253, 251, 239);
 
