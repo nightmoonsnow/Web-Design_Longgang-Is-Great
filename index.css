@@ -115,7 +115,7 @@ hr{
 }
 .navItemLink{
     flex-basis: 100%;
-    font-size: 3.75vh;
+    font-size: 2.75vh;
     padding: 5px 0;
     text-align: center;
     text-decoration: none;
@@ -174,7 +174,7 @@ hr{
     background-color: rgba(253, 251, 239, 0.05);
     border-radius: 10px;
 
-    font-size: 5vh;
+    font-size: 3vh;
     line-height: 8vh;
     color: rgba(253, 251, 239, 0.9);
 
@@ -189,7 +189,7 @@ hr{
     background-color: rgba(253, 251, 239, 0.05);
     border-radius: 10px;
 
-    font-size: 4vh;
+    font-size: 3vh;
     line-height: 8vh;
     color: rgba(253, 251, 239, 0.9);
 
@@ -204,7 +204,7 @@ hr{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 
-    font-size: 5vh;
+    font-size: 3vh;
     line-height: 8vh;
     color: rgb(253, 251, 239);
 
@@ -219,7 +219,7 @@ hr{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 
-    font-size: 2vh;;
+    font-size: 1vh;;
     line-height: 8vh;
     color: rgb(253, 251, 239);
 
@@ -378,7 +378,7 @@ hr{
     width: 45%;
     height: 100%;
     background-color: rgba(253, 251, 239, 0.05);
-    font-size: 6vh;
+    font-size: 5vh;
     color: rgba(253, 251, 239, 0.5);
     
     display: flex;
@@ -447,7 +447,7 @@ hr{
     background-color: rgba(253, 251, 239, 0.05);
     color: rgba(253, 251, 239, 0.9);
     border-radius: 10px;
-    font-size: 4vh;
+    font-size: 3vh;
 
     display: flex;
     flex-direction: column;
@@ -461,7 +461,7 @@ hr{
     background-color: rgba(0, 0, 0, 0.3);
     color: rgb(253, 251, 239);
     border-radius: 10px;
-    font-size: 4vh;
+    font-size: 3vh;
 
     display: flex;
     flex-direction: column;
@@ -470,7 +470,7 @@ hr{
 .main04FoodItemInformationTitle{
     width: 100%;
     height: 10%;
-    font-size: 6vh;
+    font-size: 5vh;
     margin-bottom: 8%;
     text-align: center;
 }
@@ -483,7 +483,7 @@ hr{
 .main04FoodItemInformationContent{
     width: 100%;
     height: 85%;
-    font-size: 4vh;
+    font-size: 3vh;
     line-height: 8vh;
 }
 #mainShowImg{
@@ -557,7 +557,7 @@ hr{
     border-width: medium;
     border-radius: 10px;
 
-    font-size: 4vh;
+    font-size: 3vh;
     line-height: 10vh;
     color: rgba(253, 251, 239, 0.9);
 
@@ -654,7 +654,7 @@ hr{
 }
 .main06Name{
     color: rgba(253, 251, 239, 0.9);
-    font-size: 6vh;
+    font-size: 5vh;
 }
 .main06WhoHr{
     width: 70%;
@@ -672,7 +672,7 @@ hr{
 }
 .main06AboutWho{
     color: rgba(253, 251, 239, 0.9);
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .main06WhoImage{
     position: absolute;
@@ -761,7 +761,7 @@ hr{
     justify-content: space-evenly;
     align-items: center;
     text-align: left;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .footerDivInformation{
     width: 100%;
@@ -797,7 +797,7 @@ hr{
     width: 100%;
     height: 20%;
     color: rgba(253, 251, 239, 1);
-    font-size: 4.5vh;
+    font-size: 3vh;
     text-align: center;
     list-style-type: none;
 }
