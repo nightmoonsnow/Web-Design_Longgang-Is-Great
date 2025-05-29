@@ -33,7 +33,7 @@
 }
 .navItemLink{
     flex-basis: 100%;
-    font-size: 30px;
+    font-size: 2.75vh;
     padding: 5px 0;
     text-align: center;
     text-decoration: none;
@@ -73,7 +73,7 @@
 }
 .asideP{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3vh;
     color: rgba(253, 251, 239, 0.9);
 }
 .asideHrDiv{
@@ -86,7 +86,7 @@
 }
 #thisMap:hover{
     color: rgb(136, 198, 175);
-    font-size: 1.6rem;
+    font-size: 2.2vh;
 }
 #thisMap:active{
     color: rgb(229, 202, 63);
@@ -96,14 +96,14 @@
 }
 .asideLinkLi:hover{
     color: rgb(136, 198, 175);
-    font-size: 1.6rem;
+    font-size: 2.2vh;
 }
 .asideLinkLi:active{
     color: rgb(229, 202, 63);
 }
 .asideLinkLi{
     padding-left: 5%;
-    font-size: 1.5rem;
+    font-size: 2vh;
     color: rgba(253, 251, 239, 0.9);
 }
 
@@ -151,13 +151,13 @@
     justify-content: space-evenly;
     overflow: auto;
 
-    font-size: 1.5rem;
+    font-size: 2vh;
     padding: 2%;
     line-height: 170%;
 }
 .InformationP{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3vh;
     color: rgba(253, 251, 239, 0.9);
 }
 .InformationHrDiv{
@@ -178,7 +178,7 @@
 }
 .InformationLiContentLink:hover{
     color: rgb(136, 198, 175);
-    font-size: 1.6rem;
+    font-size: 2.2vh;
 }
 .InformationLiContentLink:active{
     color: rgb(229, 202, 63);
@@ -189,7 +189,7 @@
 }
 #copy:hover{
     color: rgb(136, 198, 175);
-    font-size: 1.6rem;
+    font-size: 2.2vh;
 }
 #copy:active{
     color: rgb(229, 202, 63);
